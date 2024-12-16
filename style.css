@@ -1,0 +1,120 @@
+body {
+  background-color: #546e6159;
+  cursor: default;
+}
+/* .favoriteList {
+  background: linear-gradient(135deg, #027411d8, #02aa02a2);
+  border-radius: 50%;
+  z-index: 99;
+  position: absolute;
+  right: 5%;
+  bottom: 15%;
+  font-size: 18px;
+  border: none;
+  transition: 0.5s;
+  position: fixed;
+}
+.favoriteList:hover {
+  background-color: #027411d8;
+  transition: 0.5s;
+} */
+.cart {
+  background: linear-gradient(135deg, #027411d8, #02aa02a2);
+  border-radius: 50%;
+  z-index: 99;
+  position: absolute;
+  right: 5%;
+  bottom: 5%;
+  font-size: 18px;
+  border: none;
+  transition: 0.5s;
+  position: fixed;
+}
+.cart #count {
+  position: absolute;
+  top: 0;
+  right: 2px;
+  border-radius: 50%;
+  padding: 5px;
+}
+.cart:hover {
+  background-color: #027411d8;
+  transition: 0.5s;
+}
+.cart-info {
+  border: none;
+}
+.cart-info .card {
+  background-color: #02741100;
+  border: none;
+
+  border-bottom: 1px solid black;
+}
+.container {
+  margin-top: 30px;
+}
+.container .alert-container {
+  position: absolute;
+  top: 5%;
+  z-index: 1;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.container .cards {
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.cards .card {
+  max-width: 294px;
+  min-width: 294px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.cards .card #favoriteBtn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 20px;
+}
+
+.cards .card .card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.cards .card .card-body #card-img {
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cards .card .card-body .card-title {
+}
+.cards .card .card-body .card-title .info {
+  position: static;
+  bottom: 0;
+}
+
+/* cart */
+
+.click-cart {
+  background: linear-gradient(135deg, #027411d8, #02aa02a2);
+  border-radius: 50px;
+  z-index: 99;
+  width: 400px;
+  position: absolute;
+  right: 5%;
+  bottom: 5%;
+  font-size: 18px;
+  border: none;
+  transition: 0.5s;
+  position: fixed;
+}
+
+.click-cart #count {
+  display: none;
+}
+.click-cart:hover {
+  background-color: #027411d8;
+  transition: 0.5s;
+}
